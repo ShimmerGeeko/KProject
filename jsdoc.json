@@ -1,0 +1,64 @@
+{
+    "tags": {
+        "allowUnknownTags": false
+    },
+    "source": {
+        "include": "src/views",
+        "includePattern": "\\.js",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "opts": {
+        "template": "node_modules/docdash/",
+        "encoding": "utf8",
+        "destination": "docs/",
+        "recurse": true,
+        "verbose": true
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "docdash": {
+        "static": [true],         
+        "sort": [true],           
+        "sectionOrder": [               
+             "Classes",
+             "Modules",
+             "Externals",
+             "Events",
+             "Namespaces",
+             "Mixins",
+             "Tutorials",
+             "Interfaces"
+        ],    
+        "openGraph": {
+            "title": "CBS"
+        },               
+        "search": [true],         
+        "collapse": [true],       
+        "wrap": [true],           
+        "typedefs": [true],       
+        "navLevel": [1],         
+        "private": [false],        
+        "removeQuotes": ["trim"],
+        "scripts": [],                  
+        "menu": {                       
+            "Project Website": {        
+                "href":"https://localhost:3000", 
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"website_link"
+            },
+            "Forum": {
+                "href":"https://myproject.com.forum",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"forum_link"
+            }
+        }
+    
+    }
+}

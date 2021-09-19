@@ -1,0 +1,378 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Responsive Css Start */
+
+.center-margin{
+  margin: 0 auto !important;
+  text-align: center;
+  
+}
+
+.bottom-center{
+  position: absolute;
+  left: 0;
+  bottom: 1.2rem;
+  width:100%;
+}
+.display-flex{
+  display: flex;
+   justify-content: center;
+}
+
+
+.border{
+  height: 100vh;
+  border: solid 3px #efefef;
+
+}
+
+.back_image{
+  background: url('./images/kycBackgroundImage.jpg') center center no-repeat ;
+  height: 100vh;
+  background-size: contain;
+}
+
+.title-color{
+  color: #6985e7;
+}
+
+.list-bold >span{
+  font-weight: 500;
+}
+
+.appbar{
+  display: flex;
+ /* justify-content: center; */
+  padding: 0.8rem;
+  color: #6985e7;
+  border-bottom: solid 1px #6985e7;
+  width: 100%
+}
+
+
+.noPadding{
+  padding: 0px !important;
+}
+
+.access-Permission-icon{
+  margin: 0.2rem 0.5rem;
+  font-size: 2rem  !important;
+  color: #6985e7;
+}
+
+
+
+.flex{
+  display: flex;
+  margin-bottom: 1rem !important;
+}
+
+.access-permission-box{
+  display: contents;
+}
+.access-permission-header{
+  margin: 1.5rem auto;
+  text-align: left;
+  padding: 1.4rem;
+}
+
+.instruction{
+      
+      height: calc(100vh - 7.2rem);
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 15px;
+     
+}
+.middle{
+  position: absolute !important;  
+  width: 100%;      
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+.bottom-button{
+  position: fixed;
+  left: 0;
+  bottom: 1rem;
+  width:100%;
+}
+.MuiStepIcon-root.MuiStepIcon-active{
+  color: #fff !important;
+}
+
+
+.instruction-title{
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.instruction-background{
+  background-color: #6985e7;
+  height: 100vh;
+  position: relative;
+}
+.back-arrow{
+margin-right: 0.5rem;
+  margin-left: 0.3rem;
+}
+.search-back-icon{
+margin-top: 1.1rem;
+}
+.font-bold{
+font-weight: 500 !important;
+}
+
+.permission-title{
+  padding-bottom: 5px;
+    border-bottom:  solid #6985e7;
+    width: 50%;
+}
+
+
+.review-title{
+  padding-bottom: 5px;
+  border-bottom:  solid #6985e7;
+  width: 100%;
+}
+
+
+.image-proof-type{
+  height: 4rem;
+  width: 4rem;
+}
+.box-proof-type{
+  font-size: 0.8rem;
+}
+
+.proof-type{
+  background: url('./images/pencardImage.png') center center no-repeat ;
+  height: 100%;
+  
+  background-size: contain;
+  opacity: 0.2;
+}
+
+.camera-page{
+  background-size: contain;
+  opacity: 0.2;
+}
+
+.proof-page-title{
+  border-top-left-radius: 37px;
+    border-top-right-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    top: 56%;
+    height: 88vh;
+}
+
+.camera-icon{
+  color: #fff;
+  font-size: 2.5rem !important;
+  margin: 2px auto;
+  width: 100%;
+  z-index: 999;
+}
+.cancel-icon{
+  font-size: 3rem;
+}
+.camera-icon-shadow{
+  background-color: #252525;
+  opacity: 0.6;
+  height: 3rem;
+}
+
+.select-proof-container{
+  position: relative;
+   padding: 0 1rem;
+   height: 72vh;
+}
+
+.select-proof-title{
+
+  padding: 1rem 0;
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+.color-white{
+  color: #fff;
+}
+
+.cancel-icon-position{
+  position: absolute;
+  top: 3px;
+  right: 11px;
+  z-index: 999;
+}
+
+.camera-bottom-icon{
+  position: absolute;
+    bottom: 1px;
+    width: 100%;
+}
+.video-camera-text{
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  z-index: 999;
+
+}
+
+
+.full-h-w{
+  height: 100%;
+  width: 100%;
+}
+
+.MuiOutlinedInput-input{
+ padding: 11px 14px !important; 
+}
+.camera-background{
+  
+    height: 50vh;
+    position: relative;
+    margin: 1rem 0px;
+}
+
+.camera-address-preview{  
+  height: 50vh;
+  position: relative;
+  margin: 1rem 0px;
+}
+
+.address-verification-img{
+    height: 37vh;
+    background-color: rgb(255, 255, 255);
+}
+.black-color{
+  background-color: black;
+}
+
+.video-action-button{
+  position: absolute;
+  left: 39%;
+  bottom: 0.2rem;
+  width: 100%;
+}
+
+.preview-icon{
+  color: #fff;
+  margin: 10px;
+}
+
+
+.faceverification-img{
+  height: 130px;
+  width: 130px;
+}
+
+.faceverification-text{
+  margin: 3.5rem auto !important;
+}
+
+
+@media (max-width: 769px) {
+  .border{
+    height: 100vh;
+    border: none;
+  }
+  .image-proof-type{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .box-proof-type{
+    font-size: 0.7rem;
+  }
+  .permission-title{
+    width: 40%;
+  }
+  .review-title{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  body{
+    
+    margin: 0 auto;
+  }
+
+  .review-title{
+    width: 40%;
+  }
+
+}
+
+@media only screen and (max-width: 1023px) {}
+@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 600px) {
+  .permission-title{
+    width: 70%;
+  }
+  .camera-background{
+    height: calc(50vh - 59px);
+    }
+    .camera-address-preview{
+      height: calc(50vh - 59px);
+    }
+    .review-title{
+      width: 100%;
+    }
+    .faceverification-img{
+      height: 100px;
+      width: 100px;
+    }
+    .faceverification-text{
+      margin: 2.5rem auto !important;
+      width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 840px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  .proof-page-title{
+    top: 65%;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .select-proof-container{
+    height: 77vh;
+  }
+  .camera-address-preview{
+    height: 45vh;
+    }
+    .address-verification-img{
+      height: 29vh;      
+  }
+  .preview-icon{
+       margin: 4px;
+  }
+  
+}
+
+
+/* .jado{
+  background-image: url(${process.env.PUBLIC_URL + '/images/kycBackgroundImage.jpg'}),
+} */
+
+  /* @media only screen and (max-width: 600px) {
+    .padding-zero{
+    padding: 0px !important;
+  }
+} */
